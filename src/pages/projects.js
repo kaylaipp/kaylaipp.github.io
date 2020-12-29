@@ -55,7 +55,7 @@ export default class Projects extends Component {
                     </Card>
                     </Col>
 
-                    <Col>
+                    {/* <Col>
                     <Card>
                         <CardImg top src="project4.png" />
                         <CardBody>
@@ -77,6 +77,35 @@ export default class Projects extends Component {
                           </span>
                           <span>
                             <Badge theme="light">Tensorflow</Badge>
+                          </span>
+                        </div>
+
+                        </CardBody>
+                    </Card>
+                    </Col> */}
+
+                    <Col>
+                    <Card>
+                        <CardImg top src="final.gif" className = "projectImage"/>
+                        <CardBody>
+                        <CardTitle>Car Lane Detection</CardTitle>
+                        <div id = "projectText">Car lane detection with OpenCV and Python</div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br/>
+                        <div id = "inlineWrapper">
+                          <span>
+                            <a href="https://github.com/kaylaipp/lane-detection" target="_blank"> 
+                              <div id = "iconWrapper"><FaGithub/></div>
+                            </a>
+                          </span>
+                          <span>
+                            <Badge theme="light">Python</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">OpenCV</Badge>
                           </span>
                         </div>
 
