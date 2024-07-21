@@ -24,7 +24,7 @@ export default class Projects extends Component {
                         <CardImg top src="project1.png" />
                         <CardBody>
                         <CardTitle>Spotify Sentiment Analysis</CardTitle>
-                        <div id = "projectText">Lyric sentiment analysis on albums and current top songs from 
+                        <div id = "projectText">Lyric sentiment analysis on albums and current top songs from
                         Spotify</div>
                         <br/>
                           <a href="https://kaylaipp.shinyapps.io/Lyric-Analysis/">
@@ -32,10 +32,10 @@ export default class Projects extends Component {
                           </a>
                           <br/>
                           <br></br>
-                          
+
                           <div id = "inlineWrapper">
                             <span>
-                              <a href="https://github.com/kaylaipp/Lyric-Analysis" target="_blank"> 
+                              <a href="https://github.com/kaylaipp/Lyric-Analysis" target="_blank">
                               <div id = "iconWrapper">
                                 <FaGithub/>
                                 </div>
@@ -68,7 +68,7 @@ export default class Projects extends Component {
                         <br/>
                         <div id = "inlineWrapper">
                           <span>
-                            <a href="https://github.com/kaylaipp/Lyric-Analysis" target="_blank"> 
+                            <a href="https://github.com/kaylaipp/Lyric-Analysis" target="_blank">
                               <div id = "iconWrapper"><FaGithub/></div>
                             </a>
                           </span>
@@ -97,7 +97,7 @@ export default class Projects extends Component {
                         <br/>
                         <div id = "inlineWrapper">
                           <span>
-                            <a href="https://github.com/kaylaipp/lane-detection" target="_blank"> 
+                            <a href="https://github.com/kaylaipp/lane-detection" target="_blank">
                               <div id = "iconWrapper"><FaGithub/></div>
                             </a>
                           </span>
@@ -127,12 +127,12 @@ export default class Projects extends Component {
                         <br></br>
                         <div id = "inlineWrapper">
                           <span>
-                            <a href="https://github.com/kaylaipp/Gesture-Recognition" target="_blank"> 
+                            <a href="https://github.com/kaylaipp/Gesture-Recognition" target="_blank">
                               <div id = "iconWrapper"><FaGithub/></div>
                             </a>
                           </span>
                           <span>
-                            <Badge theme="light">Python</Badge> 
+                            <Badge theme="light">Python</Badge>
                           </span>
                           <span>
                             <Badge theme="light">OpenCV</Badge>

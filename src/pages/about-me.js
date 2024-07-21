@@ -16,25 +16,20 @@ export default class About extends Component {
             <div id = "paragraphText">
               <p>Hi there! My name is Kayla. </p>
               <p>
-                  I enjoy solving challenging problems, building intutive experiences, and working on applications that have meaningful impact. 
-                  Shortly after I graduated Boston University, I joined Wayfair as a full stack software engineer, but
-                  I'm currently looking for full time opportunties on the West Coast! 
-                  
-                  <br></br>
-                  <br></br>
-                  In my time between jobs I have been learning C++, building projects with OpenCV and have been reading Robert Martin's "Clean Code: A Handbook of Agile Software Craftsmanship"
-                  to continue learning about coding best practices. I'm eager to apply my skills in my next position and continue to grow as a developer!
+                  I enjoy solving challenging problems, building intutive experiences, and working on applications that have meaningful impact.
+                  Shortly after I graduated Boston University, I joined Wayfair as a software engineer, and then joined Rivian where I currently work as a senior software engineer.
+                  I recently completed my masters in Artificial Intelligence at Johns Hopkins University and look forward to putting that to use!
 
-
+                  <br></br>
                   <br></br><br></br>
                   Here are some technologies that I've worked with recently:
                   <Container>
                       <Row>
                         <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> React
+                          <IoIosArrowForward/> Typescript
                         </Col>
                         <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> PHP
+                          <IoIosArrowForward/> GraphQL
                         </Col>
                         <Col sm="12" md="4" lg="2">
                         </Col>
@@ -57,10 +52,10 @@ export default class About extends Component {
 
                       <Row>
                         <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> SQL
+                          <IoIosArrowForward/> DynamoDB
                         </Col>
                         <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> R
+                          <IoIosArrowForward/> Serverless
                         </Col>
                         <Col sm="12" md="4" lg="2">
                         </Col>

@@ -14,12 +14,24 @@ export default class Experience extends Component {
         <br/>
         <Card>
             <CardBody>
+                <CardTitle>Senior Software Engineer</CardTitle><br></br>
+                <CardSubtitle>Rivian | April 2021 - Present</CardSubtitle>
+                <div id = "exerienceCard">
+                <IoIosArrowForward/>
+                    Implemented multivariate and A/B feature tests leveraging our lead image algorithm for Wayfair and it’s three partner sites to determine best strategies for our company’s biggest sale day <br/>
+                </div>
+            </CardBody>
+        </Card>
+        <br/>
+        <br/>
+        <Card>
+            <CardBody>
                 <CardTitle>Software Engineer</CardTitle><br></br>
                 <CardSubtitle>Wayfair | June 2019 - Feb 2020</CardSubtitle>
                 <div id = "exerienceCard">
-                <IoIosArrowForward/> 
+                <IoIosArrowForward/>
                     Implemented multivariate and A/B feature tests leveraging our lead image algorithm for Wayfair and it’s three partner sites to determine best strategies for our company’s biggest sale day <br/>
-                <IoIosArrowForward/> 
+                <IoIosArrowForward/>
                 Leveraged knowledge in ReactJS, PHP, GraphQL and SQL to build new features and tests <br/>
                 </div>
             </CardBody>
