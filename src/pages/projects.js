@@ -19,12 +19,72 @@ export default class Projects extends Component {
             <br></br>
             <Container>
                 <Row>
+
                     <Col>
                     <Card>
-                        <CardImg top src="project1.png" />
+                        <CardImg top src="final.gif" className = "projectImage"/>
+                        <CardBody>
+                        <CardTitle>Car Lane Detection</CardTitle>
+                        <div id = "projectText">Car lane detection with OpenCV and Python</div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        {/* <br></br> */}
+                        <br/>
+                        <div id = "inlineWrapper">
+                          <span>
+                            <a href="https://github.com/kaylaipp/lane-detection" target="_blank">
+                              <div id = "iconWrapper"><FaGithub/></div>
+                            </a>
+                          </span>
+                          <span>
+                            <Badge theme="light">Python</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">OpenCV</Badge>
+                          </span>
+                        </div>
+
+                        </CardBody>
+                    </Card>
+                    </Col>
+
+                    <Col>
+                    <Card>
+                        <CardImg top src="screenshot1.png" className = "projectImage"/>
+                        <CardBody>
+                        <CardTitle>ASL Letter Recogition</CardTitle>
+                        <div id = "projectText">Basic ASL letter recogition using via OpenCV</div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        {/* <br></br> */}
+                        <div id = "inlineWrapper">
+                          <span>
+                            <a href="https://github.com/kaylaipp/Gesture-Recognition" target="_blank">
+                              <div id = "iconWrapper"><FaGithub/></div>
+                            </a>
+                          </span>
+                          <span>
+                            <Badge theme="light">Python</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">OpenCV</Badge>
+                          </span>
+                        </div>
+
+                        </CardBody>
+                    </Card>
+                    </Col>
+
+
+                    <Col>
+                    <Card>
+                        <CardImg top src="project1.png" className = "projectImage"/>
                         <CardBody>
                         <CardTitle>Spotify Sentiment Analysis</CardTitle>
-                        <div id = "projectText">Lyric sentiment analysis on albums and current top songs from
+                        <div id = "projectText">Lyric sentiment analysis on albums/current top songs from
                         Spotify</div>
                         <br/>
                           <a href="https://kaylaipp.shinyapps.io/Lyric-Analysis/">
@@ -55,9 +115,16 @@ export default class Projects extends Component {
                     </Card>
                     </Col>
 
-                    {/* <Col>
+                </Row>
+
+
+
+                <br/>
+
+                <Row>
+                    <Col>
                     <Card>
-                        <CardImg top src="project4.png" />
+                        <CardImg top src="project4.png" className = "projectImage" />
                         <CardBody>
                         <CardTitle>Predicting TV Scripts</CardTitle>
                         <div id = "projectText">Predicting TV scripts with neural networks using season 1 of Friends</div>
@@ -82,22 +149,53 @@ export default class Projects extends Component {
 
                         </CardBody>
                     </Card>
-                    </Col> */}
+                    </Col>
 
                     <Col>
                     <Card>
-                        <CardImg top src="final.gif" className = "projectImage"/>
+                        <CardImg top src="project5.png" className = "projectImage"/>
                         <CardBody>
-                        <CardTitle>Car Lane Detection</CardTitle>
-                        <div id = "projectText">Car lane detection with OpenCV and Python</div>
+                        <CardTitle>Racetrace Reinforcement Learning</CardTitle>
+                        <div id = "projectText">Various Reinforcement Learning Algorithms on Racetrack Simulations</div>
                         <br></br>
                         <br></br>
+                        <br></br>
+                        <br></br>
+                        <div id = "inlineWrapper">
+                          <span>
+                            <a href="https://github.com/kaylaipp/RacetraceReinforcementLearning" target="_blank">
+                              <div id = "iconWrapper"><FaGithub/></div>
+                            </a>
+                          </span>
+                          <span>
+                            <Badge theme="light">Python</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">Q-learning</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">SARSA</Badge>
+                          </span>
+                        </div>
+
+                        </CardBody>
+                    </Card>
+                    </Col>
+
+
+
+                    <Col>
+                    <Card>
+                        <CardImg top src="project6.png" className = "projectImage"/>
+                        <CardBody>
+                        <CardTitle>Linking Writing Processes to Writing Quality</CardTitle>
+                        <div id = "projectText">Stacked model (Cat Boost regressor, Random forest and linear regression models) to predict writing quality</div>
                         <br></br>
                         <br></br>
                         <br/>
                         <div id = "inlineWrapper">
                           <span>
-                            <a href="https://github.com/kaylaipp/lane-detection" target="_blank">
+                            <a href="https://github.com/kaylaipp/RacetraceReinforcementLearning" target="_blank">
                               <div id = "iconWrapper"><FaGithub/></div>
                             </a>
                           </span>
@@ -105,7 +203,10 @@ export default class Projects extends Component {
                             <Badge theme="light">Python</Badge>
                           </span>
                           <span>
-                            <Badge theme="light">OpenCV</Badge>
+                            <Badge theme="light">Tensorflow</Badge>
+                          </span>
+                          <span>
+                            <Badge theme="light">Random Forest</Badge>
                           </span>
                         </div>
 
@@ -113,35 +214,9 @@ export default class Projects extends Component {
                     </Card>
                     </Col>
 
-                    <Col>
-                    <Card>
-                        <CardImg top src="screenshot1.png" />
-                        <CardBody>
-                        <CardTitle>ASL Letter Recogition</CardTitle>
-                        <div id = "projectText">Basic ASL letter recogition using template matching, skin detection
-                        via OpenCV</div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <div id = "inlineWrapper">
-                          <span>
-                            <a href="https://github.com/kaylaipp/Gesture-Recognition" target="_blank">
-                              <div id = "iconWrapper"><FaGithub/></div>
-                            </a>
-                          </span>
-                          <span>
-                            <Badge theme="light">Python</Badge>
-                          </span>
-                          <span>
-                            <Badge theme="light">OpenCV</Badge>
-                          </span>
-                        </div>
 
-                        </CardBody>
-                    </Card>
-                    </Col>
+
+
                 </Row>
             </Container>
         </div>

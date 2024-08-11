@@ -14,8 +14,7 @@ export default class Projects extends Component {
         <br></br>
 
         <div id = "paragraphText">
-          <p>I'm currently seeking software engineering positions on the west coast! If 
-            there are any openings on your team I'd love to talk :) 
+          <p>I'm currently seeking software engineering and AI/ML positions! :)
           </p>
         </div>
         <a href="Kayla_Ippongi_Resume.pdf" target="blank_">

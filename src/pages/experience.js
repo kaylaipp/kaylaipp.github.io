@@ -23,7 +23,6 @@ export default class Experience extends Component {
             </CardBody>
         </Card>
         <br/>
-        <br/>
         <Card>
             <CardBody>
                 <CardTitle>Software Engineer</CardTitle><br></br>
