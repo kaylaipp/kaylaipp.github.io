@@ -17,8 +17,8 @@ export default class Experience extends Component {
                 <CardTitle>Senior Software Engineer</CardTitle><br></br>
                 <CardSubtitle>Rivian | April 2021 - Present</CardSubtitle>
                 <div id = "exerienceCard">
-                <IoIosArrowForward/>
-                    Implemented multivariate and A/B feature tests leveraging our lead image algorithm for Wayfair and it’s three partner sites to determine best strategies for our company’s biggest sale day <br/>
+                {/* <IoIosArrowForward/>
+                    Implemented multivariate and A/B feature tests leveraging our lead image algorithm for Wayfair and it’s three partner sites to determine best strategies for our company’s biggest sale day <br/> */}
                 </div>
             </CardBody>
         </Card>
@@ -58,7 +58,7 @@ export default class Experience extends Component {
             </CardBody>
         </Card>
         </div>
-        <br></br>
+        {/* <br></br> */}
     </div>
     );
   }

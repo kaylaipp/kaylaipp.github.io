@@ -16,9 +16,9 @@ export default class About extends Component {
             <div id = "paragraphText">
               <p>Hi there! My name is Kayla. </p>
               <p>
-                  I enjoy solving challenging problems, building intutive experiences, and working on applications that have meaningful impact.
-                  Shortly after I graduated Boston University, I joined Wayfair as a software engineer, and then joined Rivian where I currently work as a senior software engineer.
-                  I recently completed my masters in Artificial Intelligence at Johns Hopkins University and look forward to putting that to use!
+                  I’m passionate about tackling complex challenges, crafting seamless user experiences, and developing solutions that make a real difference.
+                  After earning my degree from Boston University, I began my career at Wayfair as a software engineer, and now I’m a software engineer at Rivian!
+                   With a recent master’s degree in Artificial Intelligence from Johns Hopkins University, I’m eager to leverage my expertise to drive innovation and create impactful applications
 
                   <br></br>
                   <br></br><br></br>
