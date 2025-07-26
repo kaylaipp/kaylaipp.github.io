@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Nav, NavItem, NavLink} from "shards-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "shards-ui/dist/css/shards.min.css"; 
+import "shards-ui/dist/css/shards.min.css";
 
 export default class LandingPage extends Component {
     render () {
@@ -22,12 +22,12 @@ export default class LandingPage extends Component {
                   <NavLink href="#contact">Contact</NavLink>
             </NavItem>
             <NavItem></NavItem>
-          </Nav>          
+          </Nav>
            <div id = "landingPageContent" >
                <div id= "wrapper">
                     <p class = "landingPageSubtitle">Hello world, My name is</p>
                     <p class = "landingPageTitle">Kayla Ippongi</p>
-                    <p class = "landingPageSubtitle">Software Engineer</p>
+                    <p class = "landingPageSubtitle">Software Engineer | MS in Artificial Intelligence / ML</p>
                 </div>
             </div>
             <div class="scroll-down"></div>

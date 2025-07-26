@@ -16,52 +16,53 @@ export default class About extends Component {
             <div id = "paragraphText">
               <p>Hi there! My name is Kayla. </p>
               <p>
-                  I’m passionate about tackling complex challenges, crafting seamless user experiences, and developing solutions that make a real difference.
-                  After earning my degree from Boston University, I began my career at Wayfair as a software engineer, and now I’m a software engineer at Rivian!
-                   With a recent master’s degree in Artificial Intelligence from Johns Hopkins University, I’m eager to leverage my expertise to drive innovation and create impactful applications
+              I'm a Senior Software Engineer with ~5 years building enterprise-scale systems that drive millions in cost savings. I have an MS in Artificial Intelligence from Johns Hopkins University with expertise in machine learning, system optimization, and API integrations.
+              Currently at Rivian, I've led high-impact projects including a $2M automation system that eliminates 131 manual hours daily and API optimizations delivering 10x performance improvements.
+
+              <br></br>
+              <br></br>
+              My background spans full-stack development, AI/ML systems, and enterprise integrations.
+              I thrive on solving complex technical challenges that deliver measurable business value - whether that's building AI models, architecting scalable GraphQL APIs, or integrating and building microservices.
 
                   <br></br>
                   <br></br><br></br>
-                  Here are some technologies that I've worked with recently:
+                  Recent focus areas:
+                  <br></br>
+                  <br></br>
                   <Container>
-                      <Row>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> Typescript
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> GraphQL
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                        </Col>
-                        <Col sm="12" md="4" lg="7">
-                        </Col>
-                      </Row>
+                    <Row>
+                      <Col sm="12" md="6" lg="3">
+                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>AI/ML</h6>
+                        <div><IoIosArrowForward/> TensorFlow</div>
+                        <div><IoIosArrowForward/> Keras</div>
+                        <div><IoIosArrowForward/> Scikit-Learn</div>
+                        <div><IoIosArrowForward/> Computer Vision</div>
+                      </Col>
 
-                      <Row>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> Python
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> Java
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                        </Col>
-                        <Col sm="12" md="4" lg="7">
-                        </Col>
-                      </Row>
+                      <Col sm="12" md="6" lg="3">
+                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Backend & APIs</h6>
+                        <div><IoIosArrowForward/> TypeScript</div>
+                        <div><IoIosArrowForward/> Python</div>
+                        <div><IoIosArrowForward/> GraphQL</div>
+                        <div><IoIosArrowForward/> Java</div>
+                      </Col>
 
-                      <Row>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> DynamoDB
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                          <IoIosArrowForward/> Serverless
-                        </Col>
-                        <Col sm="12" md="4" lg="2">
-                        </Col>
-                        <Col sm="12" md="4" lg="7">
-                        </Col>
-                      </Row>
+                      <Col sm="12" md="6" lg="3">
+                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Cloud & Data</h6>
+                        <div><IoIosArrowForward/> AWS Lambda & Stepfunctions</div>
+                        <div><IoIosArrowForward/> DynamoDB</div>
+                        <div><IoIosArrowForward/> ElasticSearch</div>
+                        <div><IoIosArrowForward/> Serverless</div>
+                      </Col>
+
+                      <Col sm="12" md="6" lg="3">
+                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Tool and Frameworks</h6>
+                        <div><IoIosArrowForward/> React</div>
+                        <div><IoIosArrowForward/> Jest</div>
+                        <div><IoIosArrowForward/> Terraform</div>
+                        <div><IoIosArrowForward/> Flask</div>
+                      </Col>
+                    </Row>
                   </Container>
                   <br/>
 

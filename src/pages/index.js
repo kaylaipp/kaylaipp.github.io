@@ -27,23 +27,18 @@ export default function Main() {
           <div id = "wrapper-social">
             <div id = "socialBar">
               <ul>
-                  <a href="https://linkedin.com/in/kaylaipp" target="_blank"> 
+                  <a href="https://linkedin.com/in/kaylaipp" target="_blank">
                     <FaLinkedinIn/>
                   </a>
               </ul>
               <ul>
-                  <a href="https://github.com/kaylaipp" target="_blank"> 
+                  <a href="https://github.com/kaylaipp" target="_blank">
                     <FaGithub/>
                   </a>
               </ul>
               <ul>
                 <a href="mailto:kaylasippongi@gmail.com" target="_blank">
                     <FiMail/>
-                </a>
-              </ul>
-              <ul>
-                <a href="https://twitter.com/kaylaipp" target="_blank">
-                    <FaTwitter/>
                 </a>
               </ul>
               <ul>
