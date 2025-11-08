@@ -287,8 +287,8 @@ export default class Projects extends Component {
                         </div>
                         <br/>
                         <div id = "inlineWrapper">
-                          <span>
-                            <a href="/consciousness.pdf" target="_blank">
+                        <span>
+                            <a href="https://drive.google.com/file/d/1BZUWI4fQCSlk4eFCIeMdfO-ZQ9m5RIv4/view?usp=sharing" target="_blank">
                               <div id = "iconWrapper">📄</div>
                             </a>
                           </span>
