@@ -288,7 +288,7 @@ export default class Projects extends Component {
                         <br/>
                         <div id = "inlineWrapper">
                           <span>
-                            <a href="/Ippongi_cognitive_final.pdf" target="_blank">
+                            <a href="/consciousness.pdf" target="_blank">
                               <div id = "iconWrapper">📄</div>
                             </a>
                           </span>
