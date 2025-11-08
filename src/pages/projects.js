@@ -19,7 +19,7 @@ export default class Projects extends Component {
             <br></br>
             <Container className="projectsContainer">
                 {/* Computer Vision Section */}
-                <h2 class = "section-title">Computer Vision</h2>
+                <h2 id="computer-vision" class = "section-title">Computer Vision</h2>
                 <br></br>
                 <Row>
                     <Col>
@@ -119,7 +119,7 @@ export default class Projects extends Component {
                 <br/><br/>
 
                 {/* Natural Language Processing Section */}
-                <h2 class = "section-title">Natural Language Processing</h2>
+                <h2 id="natural-language-processing" class = "section-title">Natural Language Processing</h2>
                 <br></br>
                 <Row>
                     <Col>
@@ -195,7 +195,7 @@ export default class Projects extends Component {
                 <br/><br/>
 
                 {/* Machine Learning & AI Section */}
-                <h2 class = "section-title">Machine Learning & AI</h2>
+                <h2 id="machine-learning-ai" class = "section-title">Machine Learning & AI</h2>
                 <br></br>
                 <Row>
                     <Col>
@@ -269,7 +269,7 @@ export default class Projects extends Component {
                 <br/><br/>
 
                 {/* Research and Writing Section */}
-                <h2 class = "section-title">Research and Writing</h2>
+                <h2 id="research-writing" class = "section-title">Research and Writing</h2>
                 <br></br>
                 <Row>
                     <Col>
