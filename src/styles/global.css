@@ -28,6 +28,15 @@
     color: #70ABF1
 }
 
+.section-title {
+    font-family: 'Alegreya';
+    font-size: 40px;
+    color: #5D5D81;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .landingPageTitle {
     /* font-family: 'Archivo Black', serif; */
     font-family: 'Alegreya';
@@ -197,7 +206,7 @@ a.nav-link:hover {color: black;}
   }
 
 #projects {
-    height:200vh;
+    height:350vh;
     width: 100%;
     background-color: #F3F2EE;
     -webkit-background-size: cover;
@@ -209,16 +218,52 @@ a.nav-link:hover {color: black;}
 
 #projectsContent {
     position: absolute;
-    top: 50%;
+    top: 80px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width:70%;
+    padding-bottom: 80px;
 }
 
 #projectText {
     font-family: 'Open Sans';
     font-size: 15px;
     color: #5D5D81;
+    line-height: 1.6;
+}
+
+#projectText br {
+    margin-bottom: 8px;
+    display: block;
+}
+
+#projectText p {
+    margin-bottom: 4px;
+    margin-top: 0;
+    line-height: 1.4;
+}
+
+#projectText p:last-child {
+    margin-bottom: 0;
+}
+
+/* Override any br tags that might be causing extra spacing */
+#projectText br {
+    display: none;
+}
+
+/* Bullet styling inside project cards */
+#projectText ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+#projectText li {
+    margin-bottom: 6px;
+}
+
+#projectText li:last-child {
+    margin-bottom: 0;
 }
 
 #contact {
@@ -302,6 +347,16 @@ html {
     text-align: left;
 }
 
+/* Align project subsections with page title */
+.projectsContainer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.projectsContainer .section-title {
+    margin-left: 0;
+}
+
 
 .scroll-down {
     position: absolute;
@@ -354,5 +409,29 @@ html {
 }
 
 .projectImage {
+    width: 100%;
     height: 200px;
+    object-fit: cover;      /* fills area without distortion */
+    object-position: center;/* keeps focal point centered */
+    display: block;         /* removes inline gaps */
+}
+
+/* Make all project cards the same height */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#projectText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }

@@ -27,7 +27,7 @@ export default class LandingPage extends Component {
                <div id= "wrapper">
                     <p class = "landingPageSubtitle">Hello world, My name is</p>
                     <p class = "landingPageTitle">Kayla Ippongi</p>
-                    <p class = "landingPageSubtitle">Software Engineer | MS in Artificial Intelligence / ML</p>
+                    <p class = "landingPageSubtitle">MS Artificial Intelligence @ Johns Hopkins | Senior SWE @ Rivian </p>
                 </div>
             </div>
             <div class="scroll-down"></div>

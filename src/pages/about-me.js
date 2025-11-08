@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Container, Row, Col } from "shards-react";
+import { Container, Row, Col, Card, CardBody, CardTitle, Badge } from "shards-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import  "../styles/global.css"
@@ -14,10 +14,11 @@ export default class About extends Component {
             <br></br>
 
             <div id = "paragraphText">
-              <p>Hi there! My name is Kayla. </p>
+              <p>Hi there! My name is Kayla! </p>
               <p>
-              I'm a Senior Software Engineer with ~5 years building enterprise-scale systems that drive millions in cost savings. I have an MS in Artificial Intelligence from Johns Hopkins University with expertise in machine learning, system optimization, and API integrations.
-              Currently at Rivian, I've led high-impact projects including a $2M automation system that eliminates 131 manual hours daily and API optimizations delivering 10x performance improvements.
+              I’m a software engineer with 5 years of experience and an M.S. in AI, and I’m passionate about using machine learning and intelligent systems to solve real-world problems.
+
+              At Rivian, I’ve built platforms that saved millions and sped up workflows 10×, and in my AI research I’ve worked on computer vision and autonomous vehicle datasets. I’m excited about pushing the boundaries of what AI can do and building products that have a meaningful impact at scale.
 
               <br></br>
               <br></br>
@@ -32,35 +33,60 @@ export default class About extends Component {
                   <Container>
                     <Row>
                       <Col sm="12" md="6" lg="3">
-                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>AI/ML</h6>
-                        <div><IoIosArrowForward/> TensorFlow</div>
-                        <div><IoIosArrowForward/> Keras</div>
-                        <div><IoIosArrowForward/> Scikit-Learn</div>
-                        <div><IoIosArrowForward/> Computer Vision</div>
+                        <Card>
+                          <CardBody>
+                            <CardTitle>AI / ML</CardTitle>
+                            <div style={{display:'flex', flexWrap:'wrap', gap:'6px'}}>
+                              <Badge theme="light">TensorFlow</Badge>
+                              <Badge theme="light">Keras</Badge>
+                              <Badge theme="light">Scikit-Learn</Badge>
+                              <Badge theme="light">Computer Vision</Badge>
+                            </div>
+                          </CardBody>
+                        </Card>
                       </Col>
 
                       <Col sm="12" md="6" lg="3">
-                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Backend & APIs</h6>
-                        <div><IoIosArrowForward/> TypeScript</div>
-                        <div><IoIosArrowForward/> Python</div>
-                        <div><IoIosArrowForward/> GraphQL</div>
-                        <div><IoIosArrowForward/> Java</div>
+                        <Card>
+                          <CardBody>
+                            <CardTitle>Backend & APIs</CardTitle>
+                            <div style={{display:'flex', flexWrap:'wrap', gap:'6px'}}>
+                              <Badge theme="light">TypeScript</Badge>
+                              <Badge theme="light">Python</Badge>
+                              <Badge theme="light">GraphQL</Badge>
+                              <Badge theme="light">Java</Badge>
+                            </div>
+                          </CardBody>
+                        </Card>
                       </Col>
 
                       <Col sm="12" md="6" lg="3">
-                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Cloud & Data</h6>
-                        <div><IoIosArrowForward/> AWS Lambda & Stepfunctions</div>
-                        <div><IoIosArrowForward/> DynamoDB</div>
-                        <div><IoIosArrowForward/> ElasticSearch</div>
-                        <div><IoIosArrowForward/> Serverless</div>
+                        <Card>
+                          <CardBody>
+                            <CardTitle>Cloud & Data</CardTitle>
+                            <div style={{display:'flex', flexWrap:'wrap', gap:'6px'}}>
+                              <Badge theme="light">AWS Lambda</Badge>
+                              <Badge theme="light">Step Functions</Badge>
+                              <Badge theme="light">DynamoDB</Badge>
+                              <Badge theme="light">Elasticsearch</Badge>
+                              <Badge theme="light">Serverless</Badge>
+                            </div>
+                          </CardBody>
+                        </Card>
                       </Col>
 
                       <Col sm="12" md="6" lg="3">
-                        <h6 style={{color: '#667eea', fontWeight: '700', marginBottom: '10px'}}>Tool and Frameworks</h6>
-                        <div><IoIosArrowForward/> React</div>
-                        <div><IoIosArrowForward/> Jest</div>
-                        <div><IoIosArrowForward/> Terraform</div>
-                        <div><IoIosArrowForward/> Flask</div>
+                        <Card>
+                          <CardBody>
+                            <CardTitle>Tools & Frameworks</CardTitle>
+                            <div style={{display:'flex', flexWrap:'wrap', gap:'6px'}}>
+                              <Badge theme="light">React</Badge>
+                              <Badge theme="light">Jest</Badge>
+                              <Badge theme="light">Terraform</Badge>
+                              <Badge theme="light">Flask</Badge>
+                            </div>
+                          </CardBody>
+                        </Card>
                       </Col>
                     </Row>
                   </Container>
